@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/Barbearia_melhorada-Photoroom.jpg);
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 36px ;
+    border: 1px solid #ffffff;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px -4px #f7f7f7a2 ;
+   
+    
+}
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 3px #ffffff;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Bitter", serif;
+   
+}
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;  
+  
+}
+
+fieldset {
+    margin: 20px;
+    border: none;
+
+}
+
+ .input-box input {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f7f7;
+    width: 250px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px #ffffff;
+    background: transparent; 
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: "Bitter", serif;
+    
+}
+label {
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+    color: #ffffff;
+}
+::placeholder {
+    color:#ffffff;
+    font-size: 17px;
+    padding: 10px;
+    text-shadow: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    
+}
+
+button {
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(240, 224, 9);
+    color: rgb(7, 7, 7);
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+
+}
+.input-box input:hover {
+    border-bottom: 2px solid #f5d20f;
+    background-color: transparent;
+    border-radius: 2px;
+    
+  }
