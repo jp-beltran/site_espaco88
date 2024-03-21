@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
-   
+    
     
 }
 
@@ -11,38 +12,41 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/Barbearia_melhorada-Photoroom.jpg);
-    background-size: contain;
+    background-image: url(img/futuristic-abstract-.jpg);
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 
 .container {
+    background-color: rgba(0, 0, 0, 0.116);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 36px ;
-    border: 1px solid #ffffff;
+    border: 1px solid #f7cc0e7a ;
     width: 450px;
     height: 450px;
     border-radius: 10px;
-    box-shadow: 10px 10px 15px -4px #f7f7f7a2 ;
+    box-shadow: #f7cc0e 0px 5px 15px;
    
     
 }
 h1 {
     text-align: center;
-    text-shadow: 1px 1px 3px #ffffff;
+    text-shadow: 1px 1px 3px  #f7cc0e;
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 30px;
-    font-family: "Bitter", serif;
+    font-family: 'Poppins', sans-serif;
    
 }
 h2 {
     text-align: center;
     color: #ffffff;
-    font-size: 30px;  
+    font-size: 30px; 
+    font-family: "Bitter", serif;
+     
   
 }
 
@@ -80,7 +84,7 @@ label {
     font-size: 17px;
     padding: 10px;
     text-shadow: none;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     
 }
@@ -95,11 +99,13 @@ button {
     margin-right: auto ;
     display: block;
     background-color: #f7f7f7;
-    border-radius: 50px;
+    border-radius: 5px;
     border: none;
+    font-family: 'Poppins', sans-serif;
+    
 }
 button:hover {
-    background-color: rgb(240, 224, 9);
+    background-color: #f7cc0e ;
     color: rgb(7, 7, 7);
 }
 .input-box {
