@@ -122,3 +122,9 @@ button:hover {
     border-radius: 2px;
     
   }
+  .span-required {
+    margin: 3px 0 0 1px;
+    font-size: 12px;
+    display: none;
+    color: rgb(255, 12, 12);
+  }

@@ -11,12 +11,13 @@
            
         <div class="container">
            
-        <form name="cadastro" >
+        <form name="cadastro"  id="form">
             <h1>MARQUE SEU HORÁRIO </h1>
             <H2>LOGIN</H2>
             <fieldset>
             <div class="input-box">
-            <input type="text" required placeholder="E-mail">
+                <input type="text" class="required" required placeholder="E-mail" oninput="emailValidate()">
+                <span class="span-required">AAAAAAAAAAAAA</span>
             </div>
             </fieldset>
         
@@ -24,7 +25,7 @@
 
            
             <div class="input-box">
-            <input type="password" name="senha" required placeholder="Senha">
+            <input type="password" id="senha" required placeholder="Senha">
             </div>
            </fieldset>
            <button type="submit">Avançar</button>
