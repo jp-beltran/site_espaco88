@@ -12,22 +12,25 @@
         <div class="container">
            
         <form name="cadastro"  id="form">
-            <h1>MARQUE SEU HORÁRIO </h1>
+            <h1>💈 MARQUE SEU HORÁRIO 💈 </h1>
             <H2>LOGIN</H2>
-            <fieldset>
+            
             <div class="input-box">
-                <input type="text" class="required" required placeholder="E-mail" oninput="emailValidate()">
-                <span class="span-required">AAAAAAAAAAAAA</span>
+                <input type="text" class="required" required placeholder="E-mail ✂" oninput="emailValidate()">
+                <span class="span-required">Digite um email valido!</span> 
             </div>
-            </fieldset>
         
-          
-
            
             <div class="input-box">
-            <input type="password" id="senha" required placeholder="Senha">
+            <input type="password" id="senha" class="required" required placeholder="Senha ✂" oninput="mainPasswordValidate()">
+            <span class="span-required">Digite uma senha com no minimo 8 caracteres</span> 
             </div>
-           </fieldset>
+
+            <div class="input-box">
+            <input type="password" id="senha" class="required" required placeholder="Repita sua senha ✂" oninput="comparePassword()">
+            <span class="span-required">Senhas devem ser compativeis</span> 
+            </div>
+           
            <button type="submit">Avançar</button>
 
         </form></div>

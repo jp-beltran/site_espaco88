@@ -12,21 +12,21 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(img/futuristic-abstract-.jpg);
+    background-image: url(img/fundo-barbearia-antiga.jpeg);
     background-size: cover;
     width: 100vw;
     height: 100vh;
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0.116);
+    background-color: rgba(0, 0, 0, 0.397);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 36px ;
-    border: 1px solid #f7cc0e7a ;
-    width: 450px;
-    height: 450px;
+    padding-top: 20px ;
+    border: 1px solid #caa70b86 ;
+    width: 530px;
+    height: 530px;
     border-radius: 10px;
     box-shadow: #f7cc0e 0px 5px 15px;
    
@@ -50,11 +50,6 @@ h2 {
   
 }
 
-fieldset {
-    margin: 20px;
-    border: none;
-
-}
 
  .input-box input {
     text-align: center;
@@ -73,15 +68,10 @@ fieldset {
     font-family: "Bitter", serif;
     
 }
-label {
-    text-align: center;
-    margin: 10px;
-    font-size: 15px;
-    color: #ffffff;
-}
+
 ::placeholder {
     color:#ffffff;
-    font-size: 17px;
+    font-size: 16px;
     padding: 10px;
     text-shadow: none;
     font-family: 'Poppins', sans-serif;
@@ -97,6 +87,7 @@ button {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto ;
+    
     display: block;
     background-color: #f7f7f7;
     border-radius: 5px;
@@ -117,14 +108,13 @@ button:hover {
 
 }
 .input-box input:hover {
-    border-bottom: 2px solid #f5d20f;
-    background-color: transparent;
-    border-radius: 2px;
+    border-bottom: 1px solid #f5d20f;
     
   }
   .span-required {
     margin: 3px 0 0 1px;
-    font-size: 12px;
+    font-size: 13px;
     display: none;
-    color: rgb(255, 12, 12);
+    color: #DC143C;
+    font-family: 'Poppins', sans-serif;
   }
