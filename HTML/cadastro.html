@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../CSS/styles-cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@500&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <section class="forms">
+           
+        <div class="container">
+            <form name="cadastro"  id="form">
+                <h1> MARQUE SEU HORÁRIO  </h1>
+                <h2>CADASTRO</h2>
+                
+                <div class="input-box">
+                    <input type="text" class="required" required placeholder="Nome ✂" oninput="nameValidate()">
+                    <span class="span-required">Digite um nome compativel</span> 
+                </div>
+
+                <div class="input-box">
+                    <input type="text" class="required" required placeholder="E-mail ✂" oninput="emailValidate()">
+                    <span class="span-required">Digite um email valido!</span> 
+                </div>
+            
+                <div class="input-box">
+                    <input type="password" id="senha" class="required" required placeholder="Senha ✂" oninput="mainPasswordValidate()">
+                    <span class="span-required">Digite uma senha com no minimo 8 caracteres</span> 
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="senha" class="required" required placeholder="Repita sua senha ✂" oninput="comparePassword()">
+                    <span class="span-required">Senhas devem ser compativeis!</span> 
+                </div>
+            
+                <button type="submit">Avançar</button>
+            </form>
+            
+        </div>
+    </section>
+
+
+    
+</body>
+<script src="../JS/script-cadastro.js"></script>
+</html>
